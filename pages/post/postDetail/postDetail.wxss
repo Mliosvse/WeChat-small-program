@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.head-image {
+  width: 100%;
+}
+.author-date{
+  flex-direction: row;
+  margin-left: 30rpx;
+    margin-top:20rpx;
+}
+.date{
+  font-size: 24rpx;
+  margin-left: 30rpx;
+  color: #999;
+}
+.avatar{
+    height: 64rpx;
+    width:64rpx;
+    vertical-align: middle;
+}
+.author,.const-text{
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+.title{
+    margin-left:40rpx;
+    font-size: 36rpx;
+    font-weight:700;
+    margin-top:30rpx;
+    letter-spacing: 2px;
+    color:#4b556c;
+}
+.audio {
+  width: 102rpx;
+  height: 110rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -51rpx;
+  top: 180rpx;
+  margin-top: 20rpx;
+}
+.tool{
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 30rpx 30rpx;
+  height: 60rpx;
+}
+.circle-img{
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  top: 15rpx;
+}
+.circle-img image{
+    width:90rpx;
+    height: 90rpx
+}
+.share-img{
+  margin-left: 30rpx;
+}
+.detail{
+  color:#666;
+    margin-left:20rpx;
+    margin-top:20rpx;
+    margin-right:30rpx;
+    line-height: 44rpx;
+    letter-spacing: 2rpx;
+    font-size: 24rpx;
+}

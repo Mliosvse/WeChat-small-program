@@ -1,0 +1,7 @@
+<view class='container'>
+  <image class='user-icon' src='/images/my.png'></image>
+  <text class='user-name'>Hello <text style='color:red;'>Mliosvse</text></text>
+  <view class='moto-container' bindtap='onTap'>
+    <text class='moto'>{{moto}}</text>
+  </view>
+</view>

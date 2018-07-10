@@ -1,0 +1,17 @@
+.post-like{
+  flex-shrink: 13px;
+  flex-direction: row;
+  line-height: 16px;
+  margin-left: 10rpx;
+}
+.post-like-icon{
+  height: 16px;
+  width: 16px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.post-like-content{
+  vertical-align: middle;
+  font-size: 13px;
+  margin-left: 10px;
+}
