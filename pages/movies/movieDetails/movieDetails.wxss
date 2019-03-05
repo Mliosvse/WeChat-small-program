@@ -1,0 +1,118 @@
+/* pages/movies/movieDetails/movieDetails.wxss */
+.banner{
+  height: 400rpx;
+  background-size: 100%;
+  overflow: hidden;
+}
+.ml40{
+  margin-left: 40rpx;
+}
+.banner .bannerContent{
+  position:absolute;
+  left: 0;
+  right: 0;
+  height:400rpx;
+  padding-left: 60rpx;
+  color: #fff;
+}
+.bannerContent .bc_title{
+  margin-top: 80rpx;
+}
+.bannerContent .bc_date{
+  font-size: 32rpx;
+  margin-top: 40rpx;
+  font-weight: normal
+}
+.bannerContent .bc_bottom{
+  margin-top: 80rpx;
+  font-size: 28rpx;
+}
+.bannerContent .bc_bottom .bcb_red{
+  color:rgb(163, 53, 53);
+}
+.bannerContent .bc_bottom .bcb_des{
+  margin-left: 20rpx;
+  color: #999;
+}
+.banner .bg{
+  float: left;
+  width: 100%;
+  filter: blur(10px); 
+  height:400rpx;
+  text-align: center;
+  line-height: 400rpx;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.details{
+  background: #fff;
+  height: 400rpx;
+  border-bottom: 1rpx solid #e0e0e0;
+  font-size: 28rpx;
+  padding-left: 40rpx;
+}
+.details .details_title{
+  margin-top: 40rpx;
+  margin-bottom: 50rpx;
+  color: #333;
+}
+.details .details_con{
+  display: flex;
+  padding-right: 40rpx;
+}
+.details_con .details_start{
+  margin-bottom: 20rpx;
+}
+.details_con .details_label{
+  width: 120rpx;
+  display: inline-block;
+  color: #999;
+}
+.details_con .details_txt{
+  color: #666;
+  width: 520rpx;
+  margin-bottom: 20rpx;
+}
+.summary{
+  border-bottom: 1rpx solid #e0e0e0;
+  padding-left: 60rpx;
+  padding-bottom: 60rpx;
+  padding-right: 60rpx;
+}
+.casts{
+  padding-left: 60rpx;
+  padding-bottom: 60rpx;
+   padding-right: 30rpx;
+}
+.summary .summary_title,
+.casts .casts_title{
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+  color: #999;
+  font-size: 28rpx;
+  line-height: 42rpx;
+}
+.summary .summary_txt{
+  font-size: 28rpx;
+  color: #666;
+  border: none;
+  padding: 0;
+}
+.casts_con{
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+.casts_con .casts_item{
+  margin-right: 30rpx;
+  width: 240rpx;
+}
+.casts_con .casts_item image{
+  width: 240rpx;
+}
+.casts_con .casts_item view{
+  text-align: center;
+  font-size: 28rpx;
+  color: #666;
+}

@@ -2,9 +2,9 @@ Page({
   data: {
     moto:"開啟小程序之旅"
   },
-  onTap:function(event){
-    wx.redirectTo({
-      url: '../post/post',
+  goIndex:function(event){
+    wx.switchTab({
+      url: '/pages/post/post',
     });
     // wx.navigateTo({
     //   url: '../post/post',

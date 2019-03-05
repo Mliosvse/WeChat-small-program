@@ -1,0 +1,46 @@
+<!--pages/movies/movieDetails/movieDetails.wxml-->
+<view class='banner'>
+  <view style='background-image: url({{movieData.images.small}});' class='bg'></view>
+  <view class='bannerContent'>
+    <view class='bc_title'>{{movieData.title}}</view>
+    <view class='bc_date'>{{movieData.countries[0]}} . {{movieData.year}}</view>
+    <view class='bc_bottom'>
+      <text class='bcb_red'>{{movieData.ratings_count}}</text>
+      <text class='bcb_des'>人喜欢</text>
+      <text class='bcb_red ml40'>{{movieData.comments_count}}</text>
+      <text class='bcb_des'>条评论</text>
+    </view>
+  </view>
+</view>
+<view class='details'>
+  <view class='details_title'>{{movieData.title}}</view>
+  <view class='details_con'>
+    <text class='details_label'>评分</text>
+    <starts class='details_start' score="{{movieData.rating}}"></starts>
+  </view>
+  <view class='details_con'>
+    <text class='details_label'>导演</text>
+    <text class='details_txt'>{{movieData.directors[0].name}}</text>
+  </view>
+  <view class='details_con'>
+    <text class='details_label'>影人</text>
+    <text class='details_txt'>{{movieData.castsStr}}</text>
+  </view>
+  <view class='details_con'>
+    <text class='details_label'>类型</text>
+    <text class='details_txt'>{{movieData.genresStr}}</text>
+  </view>
+</view>
+<view class='summary'>
+  <view class='summary_title'>剧情简介</view>
+  <view class='summary_txt'>{{movieData.summary}}</view>
+</view>
+<view class='casts'>
+  <view class='casts_title'>影人</view>
+  <view class='casts_con'>
+    <view class='casts_item' wx:for="{{movieData.casts}}"  wx:key="item.id">
+      <image src='{{item.avatars.small}}'></image>
+      <view> {{item.name}} </view>
+    </view>
+  </view>
+</view>

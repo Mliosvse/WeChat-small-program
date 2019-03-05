@@ -1,0 +1,5 @@
+<!--pages/movies/component/more-loading/more-loading.wxml-->
+<view class='moreLoading'>
+   <text hidden='{{isShow}}'>拼命加载中...</text>
+   <text hidden='{{!isShow}}'>我是有底线的!</text>
+</view>

@@ -1,0 +1,8 @@
+<!--pages/movies/search/search.wxml-->
+<view class='searchBox'>
+  <image src='/images/icon/search.png'></image>
+  <input bindconfirm="onSearch" placeholder="输入内容查找相关电影"/>
+</view>
+<view class='searchMovies'>
+    <movie-item class='movie' wx:for="{{movies}}" wx:key="{{index}}" data="{{item}}"></movie-item>
+</view>

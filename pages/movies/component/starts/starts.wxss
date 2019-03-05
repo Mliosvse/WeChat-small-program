@@ -1,0 +1,17 @@
+/* pages/movies/movies/starts.wxss */
+.starts{
+  width: 190rpx;
+  height: 32rpx;
+  display: flex;
+  justify-content: start;
+}
+.starts image{
+  width: 32rpx;
+  height: 32rpx;
+}
+.starts text{
+  font-size: 28rpx;
+  line-height: 32rpx;
+  color: #333;
+  margin-left: 25rpx;
+}

@@ -1,0 +1,6 @@
+<!--pages/movies/movie-item.wxml-->
+<view class='movieItem' data-movieid="{{data.id}}" catchtap='goDetails'>
+  <image class='img' src='{{data.images.small}}'></image>
+  <text class='title'>{{data.title}}</text>
+  <starts score="{{data.rating}}"></starts>
+</view>

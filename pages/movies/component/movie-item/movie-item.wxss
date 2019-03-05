@@ -1,0 +1,18 @@
+/* pages/movies/movie-item.wxss */
+.movieItem{
+  width: 100%;
+  padding-bottom: 30rpx;
+}
+.movieItem .img{
+  width: 100%;
+  height: 307rpx;
+}
+.movieItem .title{
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  font-size: 28rpx;
+  color: #666;
+}

@@ -1,1 +1,32 @@
 /* pages/movies/movies.wxss */
+.movie{
+  background: #e8e8e8;
+  z-index: 1;
+}
+.searchBox{
+  height: 80rpx;
+  display: flex;
+  justify-content: flex-start;
+}
+.searchBox image{
+  width: 36rpx;
+  height: 36rpx;
+  margin: 20rpx;
+}
+.searchBox text{
+  line-height: 80rpx;
+  font-size: 28rpx;
+  color: #aaa;
+}
+.mb40{
+  margin-bottom: 40rpx;
+}
+.movieItems{
+  padding: 0 30rpx;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+.movieItems .item{
+  width: 220rpx;
+}

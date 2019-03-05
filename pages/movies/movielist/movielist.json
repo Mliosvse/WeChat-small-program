@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#405f80",
+  "navigationBarTitleText": "电影",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "movie-item": "../component/movie-item/movie-item",
+    "starts": "../component/starts/starts",
+    "more-loading":"../component/more-loading/more-loading"
+  }
+}

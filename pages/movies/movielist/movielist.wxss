@@ -1,0 +1,14 @@
+/* pages/movies/movielist.wxss */
+.mb40{
+  margin-bottom: 40rpx;
+}
+.movielist{
+  padding: 0 30rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  margin-top: 40rpx;
+}
+.movielist .movie{
+  width: 220rpx;
+}

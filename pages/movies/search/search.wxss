@@ -1,0 +1,29 @@
+/* pages/movies/search/search.wxss */
+.searchBox{
+  height: 80rpx;
+  display: flex;
+  justify-content: flex-start;
+  background: #f0f0f0;
+}
+.searchBox image{
+  width: 36rpx;
+  height: 36rpx;
+  margin: 20rpx;
+}
+.searchBox input{
+  width: 650rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+}
+.searchMovies{
+  padding: 0 30rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  margin-top: 30rpx;
+}
+.searchMovies .movie{
+  width: 220rpx;
+  margin-bottom: 10rpx;
+}

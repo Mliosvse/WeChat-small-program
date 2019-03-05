@@ -1,0 +1,8 @@
+<view class='moviesType'>
+  <view class='typeName'>{{typeName}}</view>
+  <view class='more' catchtap='getmore'>
+    <text>更多</text>
+    <image class='more_arrow' src='/images/icon/arrow-right.png'></image>
+  </view>
+</view>
+ 

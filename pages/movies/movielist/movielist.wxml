@@ -1,0 +1,5 @@
+<!--pages/movies/movielist.wxml-->
+<view class='movielist'>
+  <movie-item class='movie' wx:for="{{movies.subjects}}" wx:key="{{index}}" data="{{item}}"></movie-item>
+  <more-loading isShow='{{isShow}}' style="width:100%;"></more-loading>
+</view>

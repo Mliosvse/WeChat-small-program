@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#405f80",
+  "navigationBarTitleText": "电影搜索",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "movie-item": "../component/movie-item/movie-item",
+    "starts": "../component/starts/starts"
+  }
+}

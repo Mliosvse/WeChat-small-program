@@ -1,0 +1,8 @@
+/* pages/movies/component/more-loading/more-loading.wxss */
+.moreLoading{
+  width: 100%;
+  text-align: center;
+  line-height: 72rpx;
+  font-size: 24rpx;
+  color: #ccc;
+}

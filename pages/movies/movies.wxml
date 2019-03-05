@@ -1,2 +1,18 @@
-<!--pages/movies/movies.wxml-->
-<text>pages/movies/movies.wxml</text>
+<view class='movie'>
+  <view class='searchBox' catchtap='goSearch'>
+    <image src='/images/icon/search.png'></image>
+    <text>输入内容查找相关电影</text>
+  </view>
+  <movies-type type-name="热映电影"></movies-type>
+  <view class='movieItems mb40'>
+    <movie-item class='item' wx:for="{{in_theaters}}" wx:key="{{index}}" data="{{item}}"></movie-item>
+  </view>
+  <movies-type type-name="即将上映"></movies-type>
+  <view class='movieItems mb40'>
+    <movie-item class='item' wx:for="{{coming_soon}}" wx:key="{{index}}" data="{{item}}"></movie-item>
+  </view>
+  <movies-type type-name="TOP250"></movies-type>
+  <view class='movieItems'>
+    <movie-item class='item' wx:for="{{top250}}" wx:key="{{index}}" data="{{item}}"></movie-item>
+  </view>
+</view>

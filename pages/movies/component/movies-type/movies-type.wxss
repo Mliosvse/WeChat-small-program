@@ -1,0 +1,24 @@
+.moviesType{
+  width: 100%;
+  line-height: 92rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  font-size: 32rpx;
+  background: #fff;
+}
+.moviesType .typeName{
+  color: #666666;
+}
+.moviesType .more{
+  color:#066eaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moviesType .more_arrow{
+  width: 14rpx;
+  height: 24rpx;
+  margin-left: 10rpx;
+}
